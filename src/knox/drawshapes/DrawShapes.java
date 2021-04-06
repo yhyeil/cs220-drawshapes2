@@ -248,6 +248,16 @@ public class DrawShapes extends JFrame
                 // change the color instance variable to blue
                 color = Color.BLUE;
             }
+        }); 
+        
+        //green color
+        addToMenu(colorMenu, "Green", new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                String text=e.getActionCommand();
+                System.out.println(text);
+                // change the color instance variable to blue
+                color = Color.GREEN;
+            }
         });
         
         // shape menu
